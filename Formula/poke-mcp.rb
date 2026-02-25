@@ -1,7 +1,7 @@
 class PokeMcp < Formula
   desc "MCP server for ephemeral Claude Code session reminders"
   homepage "https://github.com/maferland/poke"
-  url "https://github.com/maferland/poke.git", tag: "v0.1.0"
+  url "https://github.com/maferland/poke.git", tag: "v1.1.0"
   license "MIT"
 
   depends_on "bun"

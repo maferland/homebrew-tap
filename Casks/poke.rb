@@ -1,6 +1,6 @@
 cask "poke" do
-  version "0.1.0"
-  sha256 :no_check # Updated by release workflow
+  version "1.1.0"
+  sha256 "9cd85a62fd203218b7df40c9890db07ecc60ce215ca4f539adda8693cc8a0ddd"
 
   url "https://github.com/maferland/poke/releases/download/v#{version}/Poke.zip"
   name "Poke"
