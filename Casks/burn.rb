@@ -1,6 +1,6 @@
 cask "burn" do
-  version "1.3.3"
-  sha256 "6df11997eaf3e6de4cd1d452185237b98c9d760260b6b775a2b8105eb2a40ec2"
+  version "1.4.0"
+  sha256 "f513f8bed4e0f2b2f0aca9aefdce5fe503a4103b28c703a54d21c106b8ff5c76"
 
   url "https://github.com/maferland/burn/releases/download/v#{version}/Burn-v#{version}-macos.dmg"
   name "Burn"
@@ -17,9 +17,4 @@ cask "burn" do
   app "Burn.app"
 
   zap trash: "~/Library/Preferences/com.maferland.burn.plist"
-
-  caveats <<~EOS
-    Burn requires ccusage to read Claude Code session data.
-    Install it with: npm install -g ccusage
-  EOS
 end
