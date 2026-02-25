@@ -1,17 +1,15 @@
 class PokeMcp < Formula
   desc "MCP server for ephemeral Claude Code session reminders"
-  homepage "https://github.com/maferland/poke"
-  url "https://github.com/maferland/poke.git", tag: "v1.2.4"
+  homepage "https://github.com/maferland/poke-mcp"
+  url "https://github.com/maferland/poke-mcp.git", tag: "v1.2.4"
   license "MIT"
 
   depends_on "bun"
   depends_on "jq"
 
   def install
-    cd "poke-mcp" do
-      system "bun", "install", "--frozen-lockfile"
-      libexec.install Dir["*"]
-    end
+    system "bun", "install", "--frozen-lockfile"
+    libexec.install Dir["*"]
   end
 
   def post_install
