@@ -1,6 +1,6 @@
 cask "differ" do
   version "0.1.0"
-  sha256 "e32281037763edec4e242eaa17c0ccba613964c485bfe89b1987b8f0e9c42f89"
+  sha256 "d4ee221fb1183c195145a18eb4b53912a841afec790c697f4d59e5c45d1541f7"
 
   url "https://github.com/maferland/differ/releases/download/v#{version}/Differ_#{version}_universal.dmg"
   name "Differ"
