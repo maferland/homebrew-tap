@@ -1,6 +1,6 @@
 cask "poke" do
-  version "1.6.0"
-  sha256 "258d1bf536dd8188ad41c6a183d8f68c60e0c4d300cbf06203b37a3eb1e54bf1"
+  version "1.7.0"
+  sha256 "cbbf9b2709646373e4ddab5c4ecb2c669111dd7b8221736d1a9559ce96beedb1"
 
   url "https://github.com/maferland/poke/releases/download/v#{version}/Poke.zip"
   name "Poke"
