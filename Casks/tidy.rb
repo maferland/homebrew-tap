@@ -1,6 +1,6 @@
 cask "tidy" do
   version "1.1.2"
-  sha256 "6c841c3ef912b95c35bc1fcf35f72cf2747f24c805882bca0e20167fb7b2ac55"
+  sha256 "e9f793e5c54322cd6a294d985935842e394913274a7c30d0dc0d578b4bb03106"
 
   url "https://github.com/maferland/tidy/releases/download/v#{version}/Tidy-v#{version}-macos.dmg"
   name "Tidy"
