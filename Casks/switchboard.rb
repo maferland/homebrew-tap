@@ -1,6 +1,6 @@
 cask "switchboard" do
-  version "1.0.1"
-  sha256 "36ee25d7c6e5ba50cbce5626fb92f0c70814a0986fa21974f18a25125d2eb9ee"
+  version "1.0.0"
+  sha256 "a50047d2774141032656e1f28066a803fd63ea8a344f10c3fd4f0a3cc2b209b3"
 
   url "https://github.com/maferland/switchboard/releases/download/v#{version}/Switchboard-v#{version}-macos.dmg"
   name "Switchboard"
