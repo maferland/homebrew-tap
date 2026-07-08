@@ -1,6 +1,6 @@
 cask "snip" do
   version "2.8.0"
-  sha256 "054fd3a7ebd3f9f914b1c6645dc5daf8d02f5033abcf7c660b25187e06ebeacf"
+  sha256 "228b8c42b8e925f86ff6580fd4286e6eecaa918badd3e8e8524d7988bcd45513"
 
   url "https://github.com/maferland/snip/releases/download/v#{version}/Snip-v#{version}-macos.dmg"
   name "Snip"
