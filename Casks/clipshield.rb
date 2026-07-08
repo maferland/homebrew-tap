@@ -1,6 +1,6 @@
 cask "clipshield" do
-  version "0.1.0"
-  sha256 "dd38e5b4ac01f9fee50118020d9a2be538e6c1273e46c65aa941c2d99c33762d"
+  version "0.1.1"
+  sha256 "71a17a9c6b7e7a0f09128d00ae6b40367bb300239ba736b66f1fc70175b64c36"
 
   url "https://github.com/maferland/clipshield/releases/download/v#{version}/ClipShield-v#{version}-macos.dmg"
   name "ClipShield"
