@@ -1,6 +1,6 @@
 cask "burn" do
-  version "1.12.3"
-  sha256 "08b19f68249d2606d0157c6a78917d26338bd11f39d0dd536e7d076c087f019a"
+  version "1.12.4"
+  sha256 "1e0e9d5c0e138fba75bd632d28d451d7416408af695993586bfb4fdad08aa340"
 
   url "https://github.com/maferland/burn/releases/download/v#{version}/Burn-v#{version}-macos.dmg"
   name "Burn"
