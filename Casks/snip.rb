@@ -7,12 +7,12 @@ cask "snip" do
   desc "Automatically strip tracking parameters from copied URLs"
   homepage "https://github.com/maferland/snip"
 
-  depends_on macos: ">= :sonoma"
-
   livecheck do
     url :url
     strategy :github_latest
   end
+
+  depends_on macos: :sonoma
 
   app "Snip.app"
 

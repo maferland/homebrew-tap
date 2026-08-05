@@ -4,15 +4,15 @@ cask "clipshield" do
 
   url "https://github.com/maferland/clipshield/releases/download/v#{version}/ClipShield-v#{version}-macos.dmg"
   name "ClipShield"
-  desc "Auto-clear sensitive data from your macOS clipboard"
+  desc "Auto-clear sensitive data from your clipboard"
   homepage "https://github.com/maferland/clipshield"
-
-  depends_on macos: ">= :sonoma"
 
   livecheck do
     url :url
     strategy :github_latest
   end
+
+  depends_on macos: :sonoma
 
   app "ClipShield.app"
 

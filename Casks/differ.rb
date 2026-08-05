@@ -7,12 +7,12 @@ cask "differ" do
   desc "Desktop image comparison tool with pixel-level diffing"
   homepage "https://github.com/maferland/differ"
 
-  depends_on macos: ">= :catalina"
-
   livecheck do
     url :url
     strategy :github_latest
   end
+
+  depends_on macos: :catalina
 
   app "Differ.app"
 

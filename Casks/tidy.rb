@@ -7,12 +7,12 @@ cask "tidy" do
   desc "Automatically clean up messy clipboard text"
   homepage "https://github.com/maferland/tidy"
 
-  depends_on macos: ">= :sonoma"
-
   livecheck do
     url :url
     strategy :github_latest
   end
+
+  depends_on macos: :sonoma
 
   app "Tidy.app"
 
